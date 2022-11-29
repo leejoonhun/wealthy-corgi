@@ -4,13 +4,19 @@ version = "0.1.0"
 description = ""
 authors = ["Lee Joonhun <jhlee63@outlook.com>"]
 readme = "README.md"
-packages = [{include = "personal_wealth_management"}]
+packages = [{ include = "personal_wealth_management" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 black = "^22.10.0"
 isort = "^5.10.1"
+pandas-datareader = "^0.10.0"
 
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
 
 [build-system]
 requires = ["poetry-core"]
