@@ -10,8 +10,10 @@ packages = [{ include = "personal_wealth_management" }]
 python = "^3.8"
 black = "^22.10.0"
 isort = "^5.10.1"
-pandas-datareader = "^0.10.0"
 pyyaml = "^6.0"
+pandas-datareader = "^0.10.0"
+html5lib = "^1.1"
+beautifulsoup4 = "^4.11.1"
 
 [tool.black]
 target-version = ["py310"]

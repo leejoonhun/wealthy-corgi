@@ -6,7 +6,7 @@ import yaml
 from config import RSRC_DIR
 
 with open(RSRC_DIR / "api_keys.yml", "r") as f:
-    api_key = yaml.safe_load(f)["Alpha Vanatage"]
+    api_key = yaml.safe_load(f)["Alpha Vantage"]
 
 
 def get_xr(quote: str, base: str = "KRW"):
