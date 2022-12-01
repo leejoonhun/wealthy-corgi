@@ -12,11 +12,3 @@ def get_us_stock_prices(names: list):
     for name in names:
         dfs[name] = pdr.get_data_yahoo(name2ticker[name])
     return dfs
-
-
-def get_fr_stock_prices(names: list):
-    return
-
-
-def get_de_stock_prices(names: list):
-    return

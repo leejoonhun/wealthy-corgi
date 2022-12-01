@@ -1,8 +1,9 @@
 import pandas as pd
 
+url = "http://goldpricez.com/kr/gram"
+
 
 def get_gold_price():
-    url = "http://goldpricez.com/kr/gram"
     data = pd.read_html(url)
     return int(
         data[1]
