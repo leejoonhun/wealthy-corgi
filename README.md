@@ -1,1 +1,1 @@
-# System for personal wealth management
+# Personal wealth management
