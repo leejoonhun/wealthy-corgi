@@ -1,16 +1,24 @@
 [tool.poetry]
-name = "personal-wealth-management"
+name = "wealthy-corgi"
 version = "0.1.0"
 description = ""
 authors = ["Lee Joonhun <jhlee63@outlook.com>"]
 readme = "README.md"
-packages = [{include = "personal_wealth_management"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 black = "^22.10.0"
 isort = "^5.10.1"
+pyyaml = "^6.0"
+pandas-datareader = "^0.10.0"
+html5lib = "^1.1"
+beautifulsoup4 = "^4.11.1"
 
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
 
 [build-system]
 requires = ["poetry-core"]

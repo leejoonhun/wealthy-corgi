@@ -2,7 +2,7 @@
 tmp*
 
 # Sensitive files
-secrets*
+secrets/
 
 # OS-related
 *.deb
